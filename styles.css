@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+}
+
+header {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%),
+    0 2px 2px rgb(0 0 0 /6%),
+    0 0 2px rgb(0 0 0 / 7%);
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1690px;
+}
+
+ul {
+    list-style: none;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 50px;
+}
+
+button {
+    padding: 5px 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    border-radius: 70px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.nav-left li, .nav-right li {
+    padding-right: 25px;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    color: green;
+}
+
+.icon li {
+    padding-right: 7px;
+    font-size: 30px;
+}
+
+.sign-in {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.sign-in:hover {
+    background-color: rgb(225, 221, 221);
+    transition: 0.2s;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover {
+    background-color: rgb(62, 62, 62);
+    transition: 0.2s;
+
+}
+
+.store-local {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.section-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+    margin: 30px auto;
+    max-width: 1550px;
+}
+
+.section-layout img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-layout div {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin-right: 80px;
+}
+
+.section-layout button {
+    background-color: transparent;
+    transition: 0.2s;
+    font-size: 20px;
+    padding: 5px 30px;
+}
+
+
+/* .section-layout h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin: 0 40px;
+} */
+
+.txt-lg {
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin: 0 40px;
+}
+
+.txt-md {
+    font-size: 27px;
+    padding-bottom: 20px;
+    margin: 0 40px;
+}
+.section-layout p {
+    font-size: 24px;
+    margin: 0px 80px;
+    margin-bottom: 20px;
+}
+
+.bg-red {
+    background-color: rgb(221,1,49);
+}
+
+.bg-dark-red {
+    background-color: rgb(118,35,47);
+}
+
+.bg-green {
+    background-color: rgb(0,98,65);
+}
+
+.bg-dark-green {
+    background-color: rgb(30,57,50);
+}
+
+.bg-pink {
+    background-color: rgb(240,208,203);
+}
+
+.chai-bg {
+    background-color: rgb(179,118,151);
+}
+
+.bt-hover-green:hover {
+    background-color: rgb(0,78,52);
+    transition: 0.2s;
+}
+
+.bt-hover-dark-green:hover {
+    background-color: rgb(24,46,40);
+    transition: 0.2s;
+}
+
+.bt-hover-red:hover {
+    background-color: rgb(176,0,40);
+    transition: 0.2s;
+}
+
+.bt-hover-dark-red:hover {
+    background-color: rgb(94,28,38);
+    transition: 0.2s;
+}
+
+.bt-hover-pink:hover {
+    background-color: rgb(219,193,187);
+    transition: 0.2s;
+}
+
+
+.txt-white {
+    color: white;
+}
+.btn-white {
+    border: 1px solid white;
+    color: white;
+}
+.txt-green {
+    color: rgb(30,57,50);
+}
+.btn-green {
+    border: 1px solid rgb(30,57,50);
+    color: rgb(30,57,50);
+}
