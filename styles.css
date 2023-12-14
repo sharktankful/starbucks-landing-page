@@ -91,7 +91,6 @@ button {
 .section-layout {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 90px;
     margin: 30px auto;
     max-width: 1550px;
 }
@@ -101,14 +100,16 @@ button {
     height: 100%;
 }
 
-.section-layout div {
+.flex {
     font-family: 'Poppins', sans-serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align:center;
-    margin-right: 80px;
+    padding: 3.2rem;
+}
+
+.flex div {
+    text-align: center;
 }
 
 .section-layout button {
@@ -118,10 +119,20 @@ button {
     padding: 5px 30px;
 }
 
-.txt-lg {
-    font-size: 50px;
-    padding-bottom: 20px;
-    margin: 0 40px;
+
+@media screen and (min-width: 375px) {
+    .txt-lg {
+        font-size: 28px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .txt-lg {
+        font-size: 50px;
+        padding-bottom: 20px;
+        margin: 0 40px;
+    }
 }
 
 .txt-md {
@@ -131,8 +142,6 @@ button {
 }
 .section-layout p {
     font-size: 24px;
-    margin: 0px 80px;
-    margin-bottom: 20px;
 }
 
 .bg-red {
