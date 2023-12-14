@@ -90,7 +90,7 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 30px auto;
-    max-width: 1550px;
+    max-width: 1450px;
 }
 
 .section-layout img {
