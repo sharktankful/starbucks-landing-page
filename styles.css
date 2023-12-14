@@ -86,8 +86,6 @@ button {
     align-items: center;
 }
 
-
-
 .section-layout {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -105,7 +103,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3.2rem;
+    padding: 2.2rem 5.2rem;
 }
 
 .flex div {
@@ -120,20 +118,7 @@ button {
 }
 
 
-@media screen and (min-width: 375px) {
-    .txt-lg {
-        font-size: 28px;
-    }
-    
-}
 
-@media screen and (min-width: 1024px) {
-    .txt-lg {
-        font-size: 50px;
-        padding-bottom: 20px;
-        margin: 0 40px;
-    }
-}
 
 .txt-md {
     font-size: 27px;
@@ -142,6 +127,8 @@ button {
 }
 .section-layout p {
     font-size: 24px;
+    padding-bottom: 40px;
+    margin: 0px;;
 }
 
 .bg-red {
@@ -207,4 +194,21 @@ button {
 .btn-green {
     border: 1px solid rgb(30,57,50);
     color: rgb(30,57,50);
+}
+
+
+@media screen and (min-width: 375px) {
+    .txt-lg {
+        font-size: 28px;
+        margin: 0px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .txt-lg {
+        font-size: 50px;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
 }
