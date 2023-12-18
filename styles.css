@@ -215,6 +215,20 @@ button {
   padding: 15px 0px;
 }
 
+.footer-flex a {
+    color: grey;
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer-flex a:hover {
+    color: black;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+
 footer {
   box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1), 0 -2px 2px rgba(0, 0, 0, 0.06),
     0 0 2px rgba(0, 0, 0, 0.07);
@@ -230,12 +244,28 @@ footer li {
   max-width: 200px;
 }
 
+.border-line {
+    border-top: 2px solid rgb(224, 221, 221);
+    margin: 20px 80px;
+}
+
 .footer-space {
-  margin-right: 60px;
+  margin-right: 30px;
 }
 
 .footer-font {
   font-family: "Roboto", sans-serif;
+}
+
+.footer-bot-flex {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 30px;
+    font-family: "Roboto", sans-serif;
+}
+.footer-bot-flex a {
+    font-size: 13px;
+    padding: 10px 45px;
 }
 
 @media screen and (min-width: 375px) {
