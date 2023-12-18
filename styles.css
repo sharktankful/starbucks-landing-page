@@ -196,6 +196,30 @@ button {
     color: rgb(30,57,50);
 }
 
+.terms-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.terms-width {
+    max-width: 600px;
+    padding-bottom: 80px;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%),
+    0 2px 2px rgb(0 0 0 /6%),
+    0 0 2px rgb(0 0 0 / 7%);
+}
+
 
 @media screen and (min-width: 375px) {
     .txt-lg {
