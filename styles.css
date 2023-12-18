@@ -1,238 +1,254 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&family=Roboto:wght@100&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    box-shadow: 0 1px 3px rgb(0 0 0 / 10%),
-    0 2px 2px rgb(0 0 0 /6%),
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 /6%),
     0 0 2px rgb(0 0 0 / 7%);
-    background-color: white;
+  background-color: white;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    margin: 0 auto;
-    max-width: 1690px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 1690px;
 }
 
 ul {
-    list-style: none;
-    font-family: "Oswald", sans-serif;
-    display: flex;
-    align-items: center;
-    align-items: center;
-    padding: 10px;
-    margin: 0px;
+  list-style: none;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 img {
-    width: 50px;
+  width: 50px;
 }
 
 button {
-    padding: 5px 20px;
-    font-family: "Oswald", sans-serif;
-    font-size: 16px;
-    border-radius: 70px;
-    border-style: none;
-    cursor: pointer;
+  padding: 5px 20px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  border-radius: 70px;
+  border-style: none;
+  cursor: pointer;
 }
 
-.nav-left li, .nav-right li {
-    padding-right: 25px;
+.nav-left li,
+.nav-right li {
+  padding-right: 25px;
 }
 
-.nav-left a:hover, .nav-right a:hover {
-    color: green;
+.nav-left a:hover,
+.nav-right a:hover {
+  color: green;
 }
 
 .icon li {
-    padding-right: 7px;
-    font-size: 30px;
+  padding-right: 7px;
+  font-size: 30px;
 }
 
 .sign-in {
-    background-color: white;
-    border: 1px solid black;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .sign-in:hover {
-    background-color: rgb(225, 221, 221);
-    transition: 0.2s;
+  background-color: rgb(225, 221, 221);
+  transition: 0.2s;
 }
 
 .join-now {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .join-now:hover {
-    background-color: rgb(62, 62, 62);
-    transition: 0.2s;
-
+  background-color: rgb(62, 62, 62);
+  transition: 0.2s;
 }
 
 .store-local {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .section-layout {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 30px auto;
-    max-width: 1450px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px auto;
+  max-width: 1450px;
 }
 
 .section-layout img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .flex {
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2.2rem 5.2rem;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.2rem 5.2rem;
 }
 
 .flex div {
-    text-align: center;
+  text-align: center;
 }
 
 .section-layout button {
-    background-color: transparent;
-    transition: 0.2s;
-    font-size: 20px;
-    padding: 5px 30px;
+  background-color: transparent;
+  transition: 0.2s;
+  font-size: 20px;
+  padding: 5px 30px;
 }
-
-
-
 
 .txt-md {
-    font-size: 27px;
-    padding-bottom: 20px;
-    margin: 0 40px;
+  font-size: 27px;
+  padding-bottom: 20px;
+  margin: 0 40px;
 }
 .section-layout p {
-    font-size: 24px;
-    padding-bottom: 40px;
-    margin: 0px;;
+  font-size: 24px;
+  padding-bottom: 40px;
+  margin: 0px;
 }
 
 .bg-red {
-    background-color: rgb(221,1,49);
+  background-color: rgb(221, 1, 49);
 }
 
 .bg-dark-red {
-    background-color: rgb(118,35,47);
+  background-color: rgb(118, 35, 47);
 }
 
 .bg-green {
-    background-color: rgb(0,98,65);
+  background-color: rgb(0, 98, 65);
 }
 
 .bg-dark-green {
-    background-color: rgb(30,57,50);
+  background-color: rgb(30, 57, 50);
 }
 
 .bg-pink {
-    background-color: rgb(240,208,203);
+  background-color: rgb(240, 208, 203);
 }
 
 .chai-bg {
-    background-color: rgb(179,118,151);
+  background-color: rgb(179, 118, 151);
 }
 
 .bt-hover-green:hover {
-    background-color: rgb(0,78,52);
-    transition: 0.2s;
+  background-color: rgb(0, 78, 52);
+  transition: 0.2s;
 }
 
 .bt-hover-dark-green:hover {
-    background-color: rgb(24,46,40);
-    transition: 0.2s;
+  background-color: rgb(24, 46, 40);
+  transition: 0.2s;
 }
 
 .bt-hover-red:hover {
-    background-color: rgb(176,0,40);
-    transition: 0.2s;
+  background-color: rgb(176, 0, 40);
+  transition: 0.2s;
 }
 
 .bt-hover-dark-red:hover {
-    background-color: rgb(94,28,38);
-    transition: 0.2s;
+  background-color: rgb(94, 28, 38);
+  transition: 0.2s;
 }
 
 .bt-hover-pink:hover {
-    background-color: rgb(219,193,187);
-    transition: 0.2s;
+  background-color: rgb(219, 193, 187);
+  transition: 0.2s;
 }
-
 
 .txt-white {
-    color: white;
+  color: white;
 }
 .btn-white {
-    border: 1px solid white;
-    color: white;
+  border: 1px solid white;
+  color: white;
 }
 .txt-green {
-    color: rgb(30,57,50);
+  color: rgb(30, 57, 50);
 }
 .btn-green {
-    border: 1px solid rgb(30,57,50);
-    color: rgb(30,57,50);
+  border: 1px solid rgb(30, 57, 50);
+  color: rgb(30, 57, 50);
 }
 
 .terms-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: "Oswald", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
 }
 
 .terms-width {
-    max-width: 600px;
-    padding-bottom: 80px;
+  max-width: 600px;
+  padding-bottom: 80px;
 }
 
 .footer-flex {
-    display: flex;
-    flex-direction: column;
+  display: block;
+  font-size: 18px;
+  padding: 0;
+}
+
+.footer-flex li {
+  padding: 15px 0px;
+}
+
+footer {
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1), 0 -2px 2px rgba(0, 0, 0, 0.06),
+    0 0 2px rgba(0, 0, 0, 0.07);
+  background-color: white;
 }
 
 footer nav {
-    box-shadow: 0 1px 3px rgb(0 0 0 / 10%),
-    0 2px 2px rgb(0 0 0 /6%),
-    0 0 2px rgb(0 0 0 / 7%);
+  padding: 20px;
+  justify-content: flex-start;
 }
 
+footer li {
+  max-width: 200px;
+}
+
+.footer-space {
+  margin-right: 60px;
+}
+
+.footer-font {
+  font-family: "Roboto", sans-serif;
+}
 
 @media screen and (min-width: 375px) {
-    .txt-lg {
-        font-size: 28px;
-        margin: 0px;
-    }
-    
+  .txt-lg {
+    font-size: 28px;
+    margin: 0px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .txt-lg {
-        font-size: 50px;
-        padding-bottom: 20px;
-        margin: 0px;
-    }
+  .txt-lg {
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin: 0px;
+  }
 }
